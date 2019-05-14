@@ -1,6 +1,5 @@
-echo "# train-springboot" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/kevinyangss/train-springboot.git
-git push -u origin master
+# train-springboot
+
+全局异常处理<br/>
+跨域<br/>
+定时器<br/>
