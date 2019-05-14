@@ -1,0 +1,11 @@
+.gitignore
+.settings
+/.project
+/train-springboot/bin
+/train-springboot/LOG_HOME_IS_UNDEFINED
+/train-springboot/.project
+/train-springboot/.classpath
+/.idea/
+/LOG_HOME_IS_UNDEFINED/
+*.iml
+/target/
