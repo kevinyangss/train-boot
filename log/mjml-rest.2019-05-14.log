@@ -1,0 +1,18 @@
+2019-05-14 11:32:02.559 [main] INFO  com.kevin.Application - Starting Application on IT-YSS with PID 27944 (E:\GitRepository\train-springboot\target\classes started by yangshuaishuai in E:\GitRepository\train-springboot)
+2019-05-14 11:32:02.563 [main] INFO  com.kevin.Application - The following profiles are active: dev
+2019-05-14 11:32:05.040 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'executorConfig' of type [com.kevin.quatrz.ExecutorConfig$$EnhancerBySpringCGLIB$$7efcd743] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-14 11:32:05.293 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$48181866] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-14 11:32:06.442 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-05-14 11:32:06.460 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-05-14 11:32:06.471 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-14 11:32:06.471 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-14 11:32:06.611 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-14 11:32:06.612 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3961 ms
+2019-05-14 11:32:07.166 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2019-05-14 11:32:07.855 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-05-14 11:32:07.878 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found {0} custom documentation plugin(s)
+2019-05-14 11:32:07.896 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-05-14 11:32:07.919 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-05-14 11:32:07.964 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-05-14 11:32:07.968 [main] INFO  com.kevin.Application - Started Application in 6.369 seconds (JVM running for 7.598)
+2019-05-14 11:32:07.971 [main] INFO  com.kevin.Application - ============= SpringBoot Start Success =============
