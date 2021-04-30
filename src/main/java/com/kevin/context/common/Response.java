@@ -9,7 +9,7 @@ import java.util.HashMap;
  * @param <T>
  *            需要返回的业务对象
  * 
- * @author ningyu
+ * @author kevin.yang
  * @date 2016年12月27日 下午12:00:53
  */
 public class Response<T> implements Serializable {

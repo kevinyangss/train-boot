@@ -24,6 +24,12 @@
 		<java.version>1.8</java.version>
 
 		<spring-swagger.version>2.2.2</spring-swagger.version>
+
+		<poi.version>4.1.0</poi.version>
+		<poi-ooxml.version>4.1.0</poi-ooxml.version>
+		<poi-ooxml-schemas.version>4.1.0</poi-ooxml-schemas.version>
+		<dom4j.version>1.6.1</dom4j.version>
+		<xmlbeans.version>3.1.0</xmlbeans.version>
 	</properties>
 
 	<dependencies>
@@ -66,6 +72,39 @@
 			<artifactId>springfox-swagger-ui</artifactId>
 			<version>${spring-swagger.version}</version>
 		</dependency>
+
+		<!-- poi must start -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>${poi.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>${poi-ooxml.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>${poi-ooxml.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml-schemas</artifactId>
+			<version>${poi-ooxml-schemas.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>dom4j</groupId>
+			<artifactId>dom4j</artifactId>
+			<version>${dom4j.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.xmlbeans</groupId>
+			<artifactId>xmlbeans</artifactId>
+			<version>${xmlbeans.version}</version>
+		</dependency>
+		<!-- poi must end -->
 	</dependencies>
 
 	<build>
